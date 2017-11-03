@@ -14,6 +14,7 @@
 		0B7DB0371FAC698A003C23F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B7DB0351FAC698A003C23F1 /* LaunchScreen.storyboard */; };
 		0B7DB0421FAC698B003C23F1 /* Placeholder_CardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7DB0411FAC698B003C23F1 /* Placeholder_CardsTests.swift */; };
 		0B7DB04D1FAC698B003C23F1 /* Placeholder_CardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7DB04C1FAC698B003C23F1 /* Placeholder_CardsUITests.swift */; };
+		0B7DB05D1FAC69DD003C23F1 /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7DB05C1FAC69DD003C23F1 /* ShimmerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0B7DB0481FAC698B003C23F1 /* Placeholder CardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Placeholder CardsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B7DB04C1FAC698B003C23F1 /* Placeholder_CardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placeholder_CardsUITests.swift; sourceTree = "<group>"; };
 		0B7DB04E1FAC698B003C23F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B7DB05C1FAC69DD003C23F1 /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0B7DB0331FAC698A003C23F1 /* Assets.xcassets */,
 				0B7DB0351FAC698A003C23F1 /* LaunchScreen.storyboard */,
 				0B7DB0381FAC698A003C23F1 /* Info.plist */,
+				0B7DB05C1FAC69DD003C23F1 /* ShimmerView.swift */,
 			);
 			path = "Placeholder Cards";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B7DB05D1FAC69DD003C23F1 /* ShimmerView.swift in Sources */,
 				0B7DB02F1FAC698A003C23F1 /* ViewController.swift in Sources */,
 				0B7DB02D1FAC698A003C23F1 /* AppDelegate.swift in Sources */,
 			);
